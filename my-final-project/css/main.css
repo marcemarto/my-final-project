@@ -1,0 +1,115 @@
+html{
+    /* background-image: url('../imgs/josediving.png');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+h1{
+    /* background: #b3b3b3; */
+    font-size: 200%; 
+}
+body{
+    background: #b3b3b3;
+    margin: 4%;
+    overflow: scroll;
+    background-image: url('../imgs/josediving.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+header{
+    background: #666666;
+    text-align: center;
+    padding: 15px;
+}
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%);
+}
+h1{
+    color: #ffffff;
+}
+nav{
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, "Times New Roman", serif;
+}
+.menu a{
+    /* display: inline-block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0006cc;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin-top: 10px; */
+}
+/* a:hover{
+    background: #b3b3b3;
+    color: #0006cc;
+}
+a:focus{
+    background: #b3b3b3;
+    color: #0006cc;
+}
+a:active{
+    border: 3px solid #ffb6c1;
+} */
+/* 
+a:visited{
+    background: #ffb6c1;
+    color: rgb(122, 52, 64);
+}
+*/
+nav a{
+    width: 22%;
+    display: inline-block;
+    background-color: #ffffff;
+}
+h2{
+    color: #666666;
+    background: #00b7ea;
+}
+section{
+    /* width: 29%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%; */
+    /* overflow: scroll; */
+}
+.half{
+    width: 48%;
+    display: inline-block;
+    float: left;
+    /* margin-right: 2%;
+    margin-left: 2%; */
+    /* overflow: scroll; */
+}
+.whole{
+    clear: both;
+}
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+footer{
+    /* background: #666666; */
+    clear: both;
+    
+}
+img{
+    width: 125px;
+}
+.tabindex:focus{
+    border: solid #00008b 2px;
+}
+tabindex:hover{
+    border: solid #00008b 2px;
+}
